@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="../HRMS.Business/HRMS.Business.csproj" Id="c3f82f14-ad9e-4fb6-9e4f-f1a2965c8582" />
+  <Project Path="../HRMS.Database/HRMS.Database.csproj" Id="39a21d99-5f38-433c-b576-caa16fe2edb9" />
+  <Project Path="../Utilities/HRMS.Models.csproj" />
+  <Project Path="HRMS.WebAPI.csproj" />
+</Solution>
