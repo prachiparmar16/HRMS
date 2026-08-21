@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Prachi\\OneDrive\\Desktop\\.NetPractice\\HRMS.Business\\HRMS.Business.csproj": {}
+    "C:\\Users\\Prachi\\OneDrive\\Desktop\\.NetPractice\\HRMS-Latest\\HRMS.Business\\HRMS.Business.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Prachi\\OneDrive\\Desktop\\.NetPractice\\HRMS.Business\\HRMS.Business.csproj": {
+    "C:\\Users\\Prachi\\OneDrive\\Desktop\\.NetPractice\\HRMS-Latest\\HRMS.Business\\HRMS.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Prachi\\OneDrive\\Desktop\\.NetPractice\\HRMS.Business\\HRMS.Business.csproj",
+        "projectUniqueName": "C:\\Users\\Prachi\\OneDrive\\Desktop\\.NetPractice\\HRMS-Latest\\HRMS.Business\\HRMS.Business.csproj",
         "projectName": "HRMS.Business",
-        "projectPath": "C:\\Users\\Prachi\\OneDrive\\Desktop\\.NetPractice\\HRMS.Business\\HRMS.Business.csproj",
+        "projectPath": "C:\\Users\\Prachi\\OneDrive\\Desktop\\.NetPractice\\HRMS-Latest\\HRMS.Business\\HRMS.Business.csproj",
         "packagesPath": "C:\\Users\\Prachi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Prachi\\OneDrive\\Desktop\\.NetPractice\\HRMS.Business\\obj\\",
+        "outputPath": "C:\\Users\\Prachi\\OneDrive\\Desktop\\.NetPractice\\HRMS-Latest\\HRMS.Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
