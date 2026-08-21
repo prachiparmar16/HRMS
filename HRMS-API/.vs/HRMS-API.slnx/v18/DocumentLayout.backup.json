@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Prachi\\OneDrive\\Desktop\\.NetPractice\\HRMS-API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3B7E1AC0-53B8-45E6-592E-E19B0A6ED12C}|HRMS-API.csproj|c:\\users\\prachi\\onedrive\\desktop\\.netpractice\\hrms-api\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B7E1AC0-53B8-45E6-592E-E19B0A6ED12C}|HRMS-API.csproj|solutionrelative:controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B7E1AC0-53B8-45E6-592E-E19B0A6ED12C}|HRMS-API.csproj|c:\\users\\prachi\\onedrive\\desktop\\.netpractice\\hrms-api\\hrms-api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{3B7E1AC0-53B8-45E6-592E-E19B0A6ED12C}|HRMS-API.csproj|solutionrelative:hrms-api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B7E1AC0-53B8-45E6-592E-E19B0A6ED12C}|HRMS-API.csproj|c:\\users\\prachi\\onedrive\\desktop\\.netpractice\\hrms-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B7E1AC0-53B8-45E6-592E-E19B0A6ED12C}|HRMS-API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B7E1AC0-53B8-45E6-592E-E19B0A6ED12C}|HRMS-API.csproj|c:\\users\\prachi\\onedrive\\desktop\\.netpractice\\hrms-api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3B7E1AC0-53B8-45E6-592E-E19B0A6ED12C}|HRMS-API.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B7E1AC0-53B8-45E6-592E-E19B0A6ED12C}|HRMS-API.csproj|c:\\users\\prachi\\onedrive\\desktop\\.netpractice\\hrms-api\\model\\studentd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B7E1AC0-53B8-45E6-592E-E19B0A6ED12C}|HRMS-API.csproj|solutionrelative:model\\studentd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B7E1AC0-53B8-45E6-592E-E19B0A6ED12C}|HRMS-API.csproj|c:\\users\\prachi\\onedrive\\desktop\\.netpractice\\hrms-api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B7E1AC0-53B8-45E6-592E-E19B0A6ED12C}|HRMS-API.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Prachi\\OneDrive\\Desktop\\.NetPractice\\HRMS-API\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Prachi\\OneDrive\\Desktop\\.NetPractice\\HRMS-API\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-17T11:11:21.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Prachi\\OneDrive\\Desktop\\.NetPractice\\HRMS-API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Prachi\\OneDrive\\Desktop\\.NetPractice\\HRMS-API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-03T13:30:45.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HRMS-API",
+              "DocumentMoniker": "C:\\Users\\Prachi\\OneDrive\\Desktop\\.NetPractice\\HRMS-API\\HRMS-API.csproj",
+              "RelativeDocumentMoniker": "HRMS-API.csproj",
+              "ToolTip": "C:\\Users\\Prachi\\OneDrive\\Desktop\\.NetPractice\\HRMS-API\\HRMS-API.csproj",
+              "RelativeToolTip": "HRMS-API.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-03T13:30:12.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StudentD.cs",
+              "DocumentMoniker": "C:\\Users\\Prachi\\OneDrive\\Desktop\\.NetPractice\\HRMS-API\\Model\\StudentD.cs",
+              "RelativeDocumentMoniker": "Model\\StudentD.cs",
+              "ToolTip": "C:\\Users\\Prachi\\OneDrive\\Desktop\\.NetPractice\\HRMS-API\\Model\\StudentD.cs",
+              "RelativeToolTip": "Model\\StudentD.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T12:54:01.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\Prachi\\OneDrive\\Desktop\\.NetPractice\\HRMS-API\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\Prachi\\OneDrive\\Desktop\\.NetPractice\\HRMS-API\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "Controllers\\StudentController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T12:52:03.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\Prachi\\OneDrive\\Desktop\\.NetPractice\\HRMS-API\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\Prachi\\OneDrive\\Desktop\\.NetPractice\\HRMS-API\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T12:46:06.298Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
