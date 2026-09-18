@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Prachi\\OneDrive\\Desktop\\.NetPractice\\Utilities\\HRMS.Models.csproj": {}
+    "C:\\HRMS-Latest\\HRMS\\Utilities\\HRMS.Models.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Prachi\\OneDrive\\Desktop\\.NetPractice\\Utilities\\HRMS.Models.csproj": {
+    "C:\\HRMS-Latest\\HRMS\\Utilities\\HRMS.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Prachi\\OneDrive\\Desktop\\.NetPractice\\Utilities\\HRMS.Models.csproj",
+        "projectUniqueName": "C:\\HRMS-Latest\\HRMS\\Utilities\\HRMS.Models.csproj",
         "projectName": "HRMS.Models",
-        "projectPath": "C:\\Users\\Prachi\\OneDrive\\Desktop\\.NetPractice\\Utilities\\HRMS.Models.csproj",
-        "packagesPath": "C:\\Users\\Prachi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Prachi\\OneDrive\\Desktop\\.NetPractice\\Utilities\\obj\\",
+        "projectPath": "C:\\HRMS-Latest\\HRMS\\Utilities\\HRMS.Models.csproj",
+        "packagesPath": "C:\\Users\\parid\\.nuget\\packages\\",
+        "outputPath": "C:\\HRMS-Latest\\HRMS\\Utilities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Prachi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\parid\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

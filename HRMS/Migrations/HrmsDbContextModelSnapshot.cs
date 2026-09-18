@@ -22,6 +22,132 @@ namespace HRMS.WebAPI.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("HRMS.Models.ModelClasses.AllowanceType", b =>
+                {
+                    b.Property<int>("AllowanceTypeId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("AllowanceTypeId"));
+
+                    b.Property<string>("AllowanceName")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("Description")
+                        .HasMaxLength(250)
+                        .HasColumnType("nvarchar(250)");
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("IsTaxable")
+                        .HasColumnType("bit");
+
+                    b.HasKey("AllowanceTypeId");
+
+                    b.ToTable("AllowanceTypetbl");
+                });
+
+            modelBuilder.Entity("HRMS.Models.ModelClasses.AssetBrand", b =>
+                {
+                    b.Property<int>("AssetBrandId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("AssetBrandId"));
+
+                    b.Property<string>("BrandName")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasMaxLength(250)
+                        .HasColumnType("nvarchar(250)");
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.HasKey("AssetBrandId");
+
+                    b.ToTable("AssetBrandtbl");
+                });
+
+            modelBuilder.Entity("HRMS.Models.ModelClasses.AssetCategory", b =>
+                {
+                    b.Property<int>("AssetCategoryId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("AssetCategoryId"));
+
+                    b.Property<string>("CategoryName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.HasKey("AssetCategoryId");
+
+                    b.ToTable("AssetCategorytbl");
+                });
+
+            modelBuilder.Entity("HRMS.Models.ModelClasses.AssetStatus", b =>
+                {
+                    b.Property<int>("AssetStatusId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("AssetStatusId"));
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("StatusName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("AssetStatusId");
+
+                    b.ToTable("AssetStatustbl");
+                });
+
+            modelBuilder.Entity("HRMS.Models.ModelClasses.AssetType", b =>
+                {
+                    b.Property<int>("AssetTypeId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("AssetTypeId"));
+
+                    b.Property<string>("AssetTypeName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.HasKey("AssetTypeId");
+
+                    b.ToTable("AssetTypetbl");
+                });
+
             modelBuilder.Entity("HRMS.Models.ModelClasses.Attendance", b =>
                 {
                     b.Property<int>("AttendanceId")
@@ -55,6 +181,126 @@ namespace HRMS.WebAPI.Migrations
                     b.ToTable("Attendancetbl");
                 });
 
+            modelBuilder.Entity("HRMS.Models.ModelClasses.BloodGroup", b =>
+                {
+                    b.Property<int>("BloodGroupId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("BloodGroupId"));
+
+                    b.Property<string>("BloodGroupName")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.HasKey("BloodGroupId");
+
+                    b.ToTable("BloodGrouptbl");
+                });
+
+            modelBuilder.Entity("HRMS.Models.ModelClasses.City", b =>
+                {
+                    b.Property<int>("CityId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CityId"));
+
+                    b.Property<string>("CityName")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.Property<int>("StateId")
+                        .HasColumnType("int");
+
+                    b.HasKey("CityId");
+
+                    b.ToTable("Citytbl");
+                });
+
+            modelBuilder.Entity("HRMS.Models.ModelClasses.Country", b =>
+                {
+                    b.Property<int>("CountryId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CountryId"));
+
+                    b.Property<string>("CountryName")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.HasKey("CountryId");
+
+                    b.ToTable("Countrytbl");
+                });
+
+            modelBuilder.Entity("HRMS.Models.ModelClasses.Currency", b =>
+                {
+                    b.Property<int>("CurrencyId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CurrencyId"));
+
+                    b.Property<string>("CurrencyCode")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("CurrencyName")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.HasKey("CurrencyId");
+
+                    b.ToTable("Currencytbl");
+                });
+
+            modelBuilder.Entity("HRMS.Models.ModelClasses.DeductionType", b =>
+                {
+                    b.Property<int>("DeductionTypeId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("DeductionTypeId"));
+
+                    b.Property<string>("DeductionName")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("Description")
+                        .HasMaxLength(250)
+                        .HasColumnType("nvarchar(250)");
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("IsMandatory")
+                        .HasColumnType("bit");
+
+                    b.HasKey("DeductionTypeId");
+
+                    b.ToTable("DeductionTypetbl");
+                });
+
             modelBuilder.Entity("HRMS.Models.ModelClasses.Designation", b =>
                 {
                     b.Property<int>("DesignationId")
@@ -70,6 +316,58 @@ namespace HRMS.WebAPI.Migrations
                     b.HasKey("DesignationId");
 
                     b.ToTable("Designationstbl");
+                });
+
+            modelBuilder.Entity("HRMS.Models.ModelClasses.DocumentType", b =>
+                {
+                    b.Property<int>("DocumentTypeId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("DocumentTypeId"));
+
+                    b.Property<string>("DocumentTypeName")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("nvarchar(255)");
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.HasKey("DocumentTypeId");
+
+                    b.ToTable("DocumentTypetbl");
+                });
+
+            modelBuilder.Entity("HRMS.Models.ModelClasses.Driver", b =>
+                {
+                    b.Property<int>("DriverId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("DriverId"));
+
+                    b.Property<string>("ContactNumber")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("DriverName")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("LicenseNumber")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.HasKey("DriverId");
+
+                    b.ToTable("Drivertbl");
                 });
 
             modelBuilder.Entity("HRMS.Models.ModelClasses.Employee", b =>
@@ -235,6 +533,27 @@ namespace HRMS.WebAPI.Migrations
                     b.ToTable("EmployeeDocumentstbl");
                 });
 
+            modelBuilder.Entity("HRMS.Models.ModelClasses.Gender", b =>
+                {
+                    b.Property<int>("GenderId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("GenderId"));
+
+                    b.Property<string>("GenderName")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.HasKey("GenderId");
+
+                    b.ToTable("Gendertbl");
+                });
+
             modelBuilder.Entity("HRMS.Models.ModelClasses.Grade", b =>
                 {
                     b.Property<int>("GradeId")
@@ -254,6 +573,30 @@ namespace HRMS.WebAPI.Migrations
                     b.HasKey("GradeId");
 
                     b.ToTable("Gradestbl");
+                });
+
+            modelBuilder.Entity("HRMS.Models.ModelClasses.HardwareType", b =>
+                {
+                    b.Property<int>("HardwareTypeId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("HardwareTypeId"));
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("HardwareTypeName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.HasKey("HardwareTypeId");
+
+                    b.ToTable("HardwareTypetbl");
                 });
 
             modelBuilder.Entity("HRMS.Models.ModelClasses.Holiday", b =>
@@ -281,6 +624,27 @@ namespace HRMS.WebAPI.Migrations
                     b.HasKey("HolidayId");
 
                     b.ToTable("Holidaystbl");
+                });
+
+            modelBuilder.Entity("HRMS.Models.ModelClasses.Language", b =>
+                {
+                    b.Property<int>("LanguageId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("LanguageId"));
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("LanguageName")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("nvarchar(255)");
+
+                    b.HasKey("LanguageId");
+
+                    b.ToTable("Languagetbl");
                 });
 
             modelBuilder.Entity("HRMS.Models.ModelClasses.Leave", b =>
@@ -340,6 +704,55 @@ namespace HRMS.WebAPI.Migrations
                     b.ToTable("LeaveTypetbl");
                 });
 
+            modelBuilder.Entity("HRMS.Models.ModelClasses.MaritalStatus", b =>
+                {
+                    b.Property<int>("MaritalStatusId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("MaritalStatusId"));
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("StatusName")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("nvarchar(255)");
+
+                    b.HasKey("MaritalStatusId");
+
+                    b.ToTable("MaritalStatustbl");
+                });
+
+            modelBuilder.Entity("HRMS.Models.ModelClasses.PayFrequency", b =>
+                {
+                    b.Property<int>("PayFrequencyId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("PayFrequencyId"));
+
+                    b.Property<string>("Description")
+                        .HasMaxLength(250)
+                        .HasColumnType("nvarchar(250)");
+
+                    b.Property<int>("FrequencyDays")
+                        .HasColumnType("int");
+
+                    b.Property<string>("FrequencyName")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.HasKey("PayFrequencyId");
+
+                    b.ToTable("PayFrequencytbl");
+                });
+
             modelBuilder.Entity("HRMS.Models.ModelClasses.Payroll", b =>
                 {
                     b.Property<int>("PayrollId")
@@ -379,6 +792,178 @@ namespace HRMS.WebAPI.Migrations
                     b.ToTable("Payrollstbl");
                 });
 
+            modelBuilder.Entity("HRMS.Models.ModelClasses.PayrollPolicy", b =>
+                {
+                    b.Property<int>("PayrollPolicyId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("PayrollPolicyId"));
+
+                    b.Property<string>("Description")
+                        .HasMaxLength(250)
+                        .HasColumnType("nvarchar(250)");
+
+                    b.Property<bool>("IncludeESI")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("IncludePF")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("IncludeTax")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.Property<int>("PayFrequencyId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("PolicyName")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.HasKey("PayrollPolicyId");
+
+                    b.HasIndex("PayFrequencyId");
+
+                    b.ToTable("PayrollPolicytbl");
+                });
+
+            modelBuilder.Entity("HRMS.Models.ModelClasses.PickupPoint", b =>
+                {
+                    b.Property<int>("PickupPointId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("PickupPointId"));
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("PickupPointName")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<int>("RouteId")
+                        .HasColumnType("int");
+
+                    b.HasKey("PickupPointId");
+
+                    b.ToTable("PickupPointtbl");
+                });
+
+            modelBuilder.Entity("HRMS.Models.ModelClasses.RelationshipType", b =>
+                {
+                    b.Property<int>("RelationshipTypeId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("RelationshipTypeId"));
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("RelationshipName")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.HasKey("RelationshipTypeId");
+
+                    b.ToTable("RelationshipTypetbl");
+                });
+
+            modelBuilder.Entity("HRMS.Models.ModelClasses.Route", b =>
+                {
+                    b.Property<int>("RouteId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("RouteId"));
+
+                    b.Property<string>("EndPoint")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("RouteName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("StartPoint")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("RouteId");
+
+                    b.ToTable("Routetbl");
+                });
+
+            modelBuilder.Entity("HRMS.Models.ModelClasses.SalaryComponent", b =>
+                {
+                    b.Property<int>("SalaryComponentId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("SalaryComponentId"));
+
+                    b.Property<string>("ComponentName")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("ComponentType")
+                        .IsRequired()
+                        .HasMaxLength(20)
+                        .HasColumnType("nvarchar(20)");
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("IsTaxable")
+                        .HasColumnType("bit");
+
+                    b.HasKey("SalaryComponentId");
+
+                    b.ToTable("SalaryComponentstbl");
+                });
+
+            modelBuilder.Entity("HRMS.Models.ModelClasses.SalaryGrade", b =>
+                {
+                    b.Property<int>("SalaryGradeId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("SalaryGradeId"));
+
+                    b.Property<string>("Description")
+                        .HasMaxLength(250)
+                        .HasColumnType("nvarchar(250)");
+
+                    b.Property<string>("GradeName")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.Property<decimal>("MaximumSalary")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<decimal>("MinimumSalary")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.HasKey("SalaryGradeId");
+
+                    b.ToTable("SalaryGradestbl");
+                });
+
             modelBuilder.Entity("HRMS.Models.ModelClasses.SalaryStructure", b =>
                 {
                     b.Property<int>("SalaryStructureId")
@@ -411,6 +996,84 @@ namespace HRMS.WebAPI.Migrations
                     b.HasKey("SalaryStructureId");
 
                     b.ToTable("SalaryStructurestbl");
+                });
+
+            modelBuilder.Entity("HRMS.Models.ModelClasses.SoftwareType", b =>
+                {
+                    b.Property<int>("SoftwareTypeId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("SoftwareTypeId"));
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("SoftwareTypeName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("SoftwareTypeId");
+
+                    b.ToTable("SoftwareTypetbl");
+                });
+
+            modelBuilder.Entity("HRMS.Models.ModelClasses.State", b =>
+                {
+                    b.Property<int>("StateId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("StateId"));
+
+                    b.Property<int>("CountryId")
+                        .HasColumnType("int");
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("StateName")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.HasKey("StateId");
+
+                    b.ToTable("Statetbl");
+                });
+
+            modelBuilder.Entity("HRMS.Models.ModelClasses.TaxSlab", b =>
+                {
+                    b.Property<int>("TaxSlabId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("TaxSlabId"));
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.Property<decimal>("MaximumIncome")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<decimal>("MinimumIncome")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<string>("SlabName")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<decimal>("TaxPercentage")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.HasKey("TaxSlabId");
+
+                    b.ToTable("TaxSlabstbl");
                 });
 
             modelBuilder.Entity("HRMS.Models.ModelClasses.UserLogin", b =>
@@ -469,6 +1132,70 @@ namespace HRMS.WebAPI.Migrations
                     b.HasKey("UserId");
 
                     b.ToTable("UserRegistrationstbl");
+                });
+
+            modelBuilder.Entity("HRMS.Models.ModelClasses.Vehicle", b =>
+                {
+                    b.Property<int>("VehicleId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("VehicleId"));
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.Property<int>("SeatingCapacity")
+                        .HasColumnType("int");
+
+                    b.Property<string>("VehicleName")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("VehicleNumber")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<int>("VehicleTypeId")
+                        .HasColumnType("int");
+
+                    b.HasKey("VehicleId");
+
+                    b.ToTable("Vehicletbl");
+                });
+
+            modelBuilder.Entity("HRMS.Models.ModelClasses.VehicleType", b =>
+                {
+                    b.Property<int>("VehicleTypeId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("VehicleTypeId"));
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("VehicleTypeName")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.HasKey("VehicleTypeId");
+
+                    b.ToTable("VehicleTypetbl");
+                });
+
+            modelBuilder.Entity("HRMS.Models.ModelClasses.PayrollPolicy", b =>
+                {
+                    b.HasOne("HRMS.Models.ModelClasses.PayFrequency", "PayFrequency")
+                        .WithMany()
+                        .HasForeignKey("PayFrequencyId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("PayFrequency");
                 });
 #pragma warning restore 612, 618
         }
