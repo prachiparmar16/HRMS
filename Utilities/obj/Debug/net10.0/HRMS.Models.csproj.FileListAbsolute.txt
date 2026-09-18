@@ -10,3 +10,16 @@ C:\Users\Prachi\OneDrive\Desktop\.NetPractice\Utilities\obj\Debug\net10.0\HRMS.M
 C:\Users\Prachi\OneDrive\Desktop\.NetPractice\Utilities\obj\Debug\net10.0\refint\HRMS.Models.dll
 C:\Users\Prachi\OneDrive\Desktop\.NetPractice\Utilities\obj\Debug\net10.0\HRMS.Models.pdb
 C:\Users\Prachi\OneDrive\Desktop\.NetPractice\Utilities\obj\Debug\net10.0\ref\HRMS.Models.dll
+C:\Users\Prachi\OneDrive\Desktop\.NetPractice\HRMS-Latest\Utilities\bin\Debug\net10.0\HRMS.Models.deps.json
+C:\Users\Prachi\OneDrive\Desktop\.NetPractice\HRMS-Latest\Utilities\bin\Debug\net10.0\HRMS.Models.dll
+C:\Users\Prachi\OneDrive\Desktop\.NetPractice\HRMS-Latest\Utilities\bin\Debug\net10.0\HRMS.Models.pdb
+C:\Users\Prachi\OneDrive\Desktop\.NetPractice\HRMS-Latest\Utilities\obj\Debug\net10.0\HRMS.Models.csproj.AssemblyReference.cache
+C:\Users\Prachi\OneDrive\Desktop\.NetPractice\HRMS-Latest\Utilities\obj\Debug\net10.0\HRMS.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Prachi\OneDrive\Desktop\.NetPractice\HRMS-Latest\Utilities\obj\Debug\net10.0\HRMS.Models.AssemblyInfoInputs.cache
+C:\Users\Prachi\OneDrive\Desktop\.NetPractice\HRMS-Latest\Utilities\obj\Debug\net10.0\HRMS.Models.AssemblyInfo.cs
+C:\Users\Prachi\OneDrive\Desktop\.NetPractice\HRMS-Latest\Utilities\obj\Debug\net10.0\HRMS.Models.csproj.CoreCompileInputs.cache
+C:\Users\Prachi\OneDrive\Desktop\.NetPractice\HRMS-Latest\Utilities\obj\Debug\net10.0\HRMS.Models.sourcelink.json
+C:\Users\Prachi\OneDrive\Desktop\.NetPractice\HRMS-Latest\Utilities\obj\Debug\net10.0\HRMS.Models.dll
+C:\Users\Prachi\OneDrive\Desktop\.NetPractice\HRMS-Latest\Utilities\obj\Debug\net10.0\refint\HRMS.Models.dll
+C:\Users\Prachi\OneDrive\Desktop\.NetPractice\HRMS-Latest\Utilities\obj\Debug\net10.0\HRMS.Models.pdb
+C:\Users\Prachi\OneDrive\Desktop\.NetPractice\HRMS-Latest\Utilities\obj\Debug\net10.0\ref\HRMS.Models.dll

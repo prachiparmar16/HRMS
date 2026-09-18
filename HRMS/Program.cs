@@ -22,6 +22,10 @@ builder.Services.AddValidatorsFromAssemblyContaining<UserLoginValidator>();
 builder.Services.AddScoped<IDepartmentRepository, DepartmentService>();
 builder.Services.AddScoped<IEmployeeRepository, EmployeeService>();
 builder.Services.AddScoped<ILeaveRepository, LeaveService>();
+builder.Services.AddScoped<IOrganizationMasterRepository, OrganizationMasterService>();
+builder.Services.AddScoped<IEmployeeMasterRepository, EmployeeMasterService>();
+builder.Services.AddScoped<IRecruitmentMasterRepository, RecruitmentMasterService>();
+builder.Services.AddScoped<ICanteenMasterRepository, CanteenMasterService>();
 
 
 var app = builder.Build();

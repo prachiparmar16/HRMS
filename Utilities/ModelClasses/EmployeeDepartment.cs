@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace HRMS.Models.ModelClasses
 {
@@ -10,7 +7,8 @@ namespace HRMS.Models.ModelClasses
         [Key]
         public int DepartmentId { get; set; }
 
-        public string DepartmentName { get; set; }
-
+        [Required(ErrorMessage = "Department name is required.")]
+        [MaxLength(100, ErrorMessage = "Department name cannot exceed 100 characters.")]
+        public string DepartmentName { get; set; } = string.Empty;
     }
 }

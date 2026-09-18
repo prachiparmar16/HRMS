@@ -10,3 +10,16 @@ C:\Users\Prachi\OneDrive\Desktop\.NetPractice\HRMS.Business\obj\Debug\net10.0\HR
 C:\Users\Prachi\OneDrive\Desktop\.NetPractice\HRMS.Business\obj\Debug\net10.0\refint\HRMS.Business.dll
 C:\Users\Prachi\OneDrive\Desktop\.NetPractice\HRMS.Business\obj\Debug\net10.0\HRMS.Business.pdb
 C:\Users\Prachi\OneDrive\Desktop\.NetPractice\HRMS.Business\obj\Debug\net10.0\ref\HRMS.Business.dll
+C:\Users\Prachi\OneDrive\Desktop\.NetPractice\HRMS-Latest\HRMS.Business\bin\Debug\net10.0\HRMS.Business.deps.json
+C:\Users\Prachi\OneDrive\Desktop\.NetPractice\HRMS-Latest\HRMS.Business\bin\Debug\net10.0\HRMS.Business.dll
+C:\Users\Prachi\OneDrive\Desktop\.NetPractice\HRMS-Latest\HRMS.Business\bin\Debug\net10.0\HRMS.Business.pdb
+C:\Users\Prachi\OneDrive\Desktop\.NetPractice\HRMS-Latest\HRMS.Business\obj\Debug\net10.0\HRMS.Business.csproj.AssemblyReference.cache
+C:\Users\Prachi\OneDrive\Desktop\.NetPractice\HRMS-Latest\HRMS.Business\obj\Debug\net10.0\HRMS.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Prachi\OneDrive\Desktop\.NetPractice\HRMS-Latest\HRMS.Business\obj\Debug\net10.0\HRMS.Business.AssemblyInfoInputs.cache
+C:\Users\Prachi\OneDrive\Desktop\.NetPractice\HRMS-Latest\HRMS.Business\obj\Debug\net10.0\HRMS.Business.AssemblyInfo.cs
+C:\Users\Prachi\OneDrive\Desktop\.NetPractice\HRMS-Latest\HRMS.Business\obj\Debug\net10.0\HRMS.Business.csproj.CoreCompileInputs.cache
+C:\Users\Prachi\OneDrive\Desktop\.NetPractice\HRMS-Latest\HRMS.Business\obj\Debug\net10.0\HRMS.Business.sourcelink.json
+C:\Users\Prachi\OneDrive\Desktop\.NetPractice\HRMS-Latest\HRMS.Business\obj\Debug\net10.0\HRMS.Business.dll
+C:\Users\Prachi\OneDrive\Desktop\.NetPractice\HRMS-Latest\HRMS.Business\obj\Debug\net10.0\refint\HRMS.Business.dll
+C:\Users\Prachi\OneDrive\Desktop\.NetPractice\HRMS-Latest\HRMS.Business\obj\Debug\net10.0\HRMS.Business.pdb
+C:\Users\Prachi\OneDrive\Desktop\.NetPractice\HRMS-Latest\HRMS.Business\obj\Debug\net10.0\ref\HRMS.Business.dll

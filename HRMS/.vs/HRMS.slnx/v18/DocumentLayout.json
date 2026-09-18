@@ -1,60 +1,23 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Prachi\\OneDrive\\Desktop\\.NetPractice\\HRMS\\",
+  "WorkspaceRootPath": "C:\\Users\\Prachi\\OneDrive\\Desktop\\.NetPractice\\HRMS-Latest\\HRMS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4B7DAECF-9062-AEF3-1902-C6D93F647BDF}|..\\Utilities\\HRMS.Models.csproj|c:\\users\\prachi\\onedrive\\desktop\\.netpractice\\utilities\\modelclasses\\designation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{39A21D99-5F38-433C-B576-CAA16FE2EDB9}|..\\HRMS.Database\\HRMS.Database.csproj|c:\\users\\prachi\\onedrive\\desktop\\.netpractice\\hrms-latest\\hrms.database\\validators\\employeedepartmentvalidators.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B7DAECF-9062-AEF3-1902-C6D93F647BDF}|..\\Utilities\\HRMS.Models.csproj|c:\\users\\prachi\\onedrive\\desktop\\.netpractice\\utilities\\modelclasses\\grade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{39A21D99-5F38-433C-B576-CAA16FE2EDB9}|..\\HRMS.Database\\HRMS.Database.csproj|c:\\users\\prachi\\onedrive\\desktop\\.netpractice\\hrms-latest\\hrms.database\\validators\\attendancevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B7DAECF-9062-AEF3-1902-C6D93F647BDF}|..\\Utilities\\HRMS.Models.csproj|c:\\users\\prachi\\onedrive\\desktop\\.netpractice\\utilities\\modelclasses\\leavetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4B7DAECF-9062-AEF3-1902-C6D93F647BDF}|..\\Utilities\\HRMS.Models.csproj|c:\\users\\prachi\\onedrive\\desktop\\.netpractice\\hrms-latest\\utilities\\modelclasses\\employeedepartment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{39A21D99-5F38-433C-B576-CAA16FE2EDB9}|..\\HRMS.Database\\HRMS.Database.csproj|c:\\users\\prachi\\onedrive\\desktop\\.netpractice\\hrms.database\\validators\\payrollvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7333FD72-5202-4F0C-6547-59A8B75D05D2}|HRMS.WebAPI.csproj|c:\\users\\prachi\\onedrive\\desktop\\.netpractice\\hrms-latest\\hrms\\controllers\\recruitmentmastercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7333FD72-5202-4F0C-6547-59A8B75D05D2}|HRMS.WebAPI.csproj|solutionrelative:controllers\\recruitmentmastercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{39A21D99-5F38-433C-B576-CAA16FE2EDB9}|..\\HRMS.Database\\HRMS.Database.csproj|c:\\users\\prachi\\onedrive\\desktop\\.netpractice\\hrms.database\\validators\\leavevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4B7DAECF-9062-AEF3-1902-C6D93F647BDF}|..\\Utilities\\HRMS.Models.csproj|c:\\users\\prachi\\onedrive\\desktop\\.netpractice\\utilities\\modelclasses\\holiday.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4B7DAECF-9062-AEF3-1902-C6D93F647BDF}|..\\Utilities\\HRMS.Models.csproj|c:\\users\\prachi\\onedrive\\desktop\\.netpractice\\utilities\\modelclasses\\leave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7333FD72-5202-4F0C-6547-59A8B75D05D2}|HRMS.WebAPI.csproj|c:\\users\\prachi\\onedrive\\desktop\\.netpractice\\hrms\\controllers\\mastercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7333FD72-5202-4F0C-6547-59A8B75D05D2}|HRMS.WebAPI.csproj|solutionrelative:controllers\\mastercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7333FD72-5202-4F0C-6547-59A8B75D05D2}|HRMS.WebAPI.csproj|c:\\users\\prachi\\onedrive\\desktop\\.netpractice\\hrms\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7333FD72-5202-4F0C-6547-59A8B75D05D2}|HRMS.WebAPI.csproj|solutionrelative:services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4B7DAECF-9062-AEF3-1902-C6D93F647BDF}|..\\Utilities\\HRMS.Models.csproj|c:\\users\\prachi\\onedrive\\desktop\\.netpractice\\utilities\\modelclasses\\payroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4B7DAECF-9062-AEF3-1902-C6D93F647BDF}|..\\Utilities\\HRMS.Models.csproj|c:\\users\\prachi\\onedrive\\desktop\\.netpractice\\utilities\\modelclasses\\salarystructure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4B7DAECF-9062-AEF3-1902-C6D93F647BDF}|..\\Utilities\\HRMS.Models.csproj|c:\\users\\prachi\\onedrive\\desktop\\.netpractice\\utilities\\dtos\\departmentrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4B7DAECF-9062-AEF3-1902-C6D93F647BDF}|..\\Utilities\\HRMS.Models.csproj|c:\\users\\prachi\\onedrive\\desktop\\.netpractice\\utilities\\dtos\\departmentresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4B7DAECF-9062-AEF3-1902-C6D93F647BDF}|..\\Utilities\\HRMS.Models.csproj|c:\\users\\prachi\\onedrive\\desktop\\.netpractice\\utilities\\modelclasses\\employeeaddress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4B7DAECF-9062-AEF3-1902-C6D93F647BDF}|..\\Utilities\\HRMS.Models.csproj|c:\\users\\prachi\\onedrive\\desktop\\.netpractice\\utilities\\modelclasses\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4B7DAECF-9062-AEF3-1902-C6D93F647BDF}|..\\Utilities\\HRMS.Models.csproj|c:\\users\\prachi\\onedrive\\desktop\\.netpractice\\utilities\\modelclasses\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7333FD72-5202-4F0C-6547-59A8B75D05D2}|HRMS.WebAPI.csproj|c:\\users\\prachi\\onedrive\\desktop\\.netpractice\\hrms\\services\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7333FD72-5202-4F0C-6547-59A8B75D05D2}|HRMS.WebAPI.csproj|solutionrelative:services\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7333FD72-5202-4F0C-6547-59A8B75D05D2}|HRMS.WebAPI.csproj|c:\\users\\prachi\\onedrive\\desktop\\.netpractice\\hrms-latest\\hrms\\controllers\\employeemastercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7333FD72-5202-4F0C-6547-59A8B75D05D2}|HRMS.WebAPI.csproj|solutionrelative:controllers\\employeemastercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -64,213 +27,70 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MasterController.cs",
-              "DocumentMoniker": "C:\\Users\\Prachi\\OneDrive\\Desktop\\.NetPractice\\HRMS\\Controllers\\MasterController.cs",
-              "RelativeDocumentMoniker": "Controllers\\MasterController.cs",
-              "ToolTip": "C:\\Users\\Prachi\\OneDrive\\Desktop\\.NetPractice\\HRMS\\Controllers\\MasterController.cs",
-              "RelativeToolTip": "Controllers\\MasterController.cs",
-              "ViewState": "AgIAAKsAAAAAAAAAAAASwKoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-14T10:52:43.478Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PayrollValidator.cs",
-              "DocumentMoniker": "C:\\Users\\Prachi\\OneDrive\\Desktop\\.NetPractice\\HRMS.Database\\Validators\\PayrollValidator.cs",
-              "RelativeDocumentMoniker": "..\\HRMS.Database\\Validators\\PayrollValidator.cs",
-              "ToolTip": "C:\\Users\\Prachi\\OneDrive\\Desktop\\.NetPractice\\HRMS.Database\\Validators\\PayrollValidator.cs",
-              "RelativeToolTip": "..\\HRMS.Database\\Validators\\PayrollValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-21T10:51:07.151Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Grade.cs",
-              "DocumentMoniker": "C:\\Users\\Prachi\\OneDrive\\Desktop\\.NetPractice\\Utilities\\ModelClasses\\Grade.cs",
-              "RelativeDocumentMoniker": "..\\Utilities\\ModelClasses\\Grade.cs",
-              "ToolTip": "C:\\Users\\Prachi\\OneDrive\\Desktop\\.NetPractice\\Utilities\\ModelClasses\\Grade.cs",
-              "RelativeToolTip": "..\\Utilities\\ModelClasses\\Grade.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-21T10:04:46.7Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LeaveType.cs",
-              "DocumentMoniker": "C:\\Users\\Prachi\\OneDrive\\Desktop\\.NetPractice\\Utilities\\ModelClasses\\LeaveType.cs",
-              "RelativeDocumentMoniker": "..\\Utilities\\ModelClasses\\LeaveType.cs",
-              "ToolTip": "C:\\Users\\Prachi\\OneDrive\\Desktop\\.NetPractice\\Utilities\\ModelClasses\\LeaveType.cs",
-              "RelativeToolTip": "..\\Utilities\\ModelClasses\\LeaveType.cs",
+              "Title": "AttendanceValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Prachi\\OneDrive\\Desktop\\.NetPractice\\HRMS-Latest\\HRMS.Database\\Validators\\AttendanceValidator.cs",
+              "RelativeDocumentMoniker": "..\\HRMS.Database\\Validators\\AttendanceValidator.cs",
+              "ToolTip": "C:\\Users\\Prachi\\OneDrive\\Desktop\\.NetPractice\\HRMS-Latest\\HRMS.Database\\Validators\\AttendanceValidator.cs",
+              "RelativeToolTip": "..\\HRMS.Database\\Validators\\AttendanceValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-21T10:04:36.297Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LeaveValidator.cs",
-              "DocumentMoniker": "C:\\Users\\Prachi\\OneDrive\\Desktop\\.NetPractice\\HRMS.Database\\Validators\\LeaveValidator.cs",
-              "RelativeDocumentMoniker": "..\\HRMS.Database\\Validators\\LeaveValidator.cs",
-              "ToolTip": "C:\\Users\\Prachi\\OneDrive\\Desktop\\.NetPractice\\HRMS.Database\\Validators\\LeaveValidator.cs",
-              "RelativeToolTip": "..\\HRMS.Database\\Validators\\LeaveValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBAAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-21T09:57:43.636Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Leave.cs",
-              "DocumentMoniker": "C:\\Users\\Prachi\\OneDrive\\Desktop\\.NetPractice\\Utilities\\ModelClasses\\Leave.cs",
-              "RelativeDocumentMoniker": "..\\Utilities\\ModelClasses\\Leave.cs",
-              "ToolTip": "C:\\Users\\Prachi\\OneDrive\\Desktop\\.NetPractice\\Utilities\\ModelClasses\\Leave.cs",
-              "RelativeToolTip": "..\\Utilities\\ModelClasses\\Leave.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-21T09:34:09.333Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Designation.cs",
-              "DocumentMoniker": "C:\\Users\\Prachi\\OneDrive\\Desktop\\.NetPractice\\Utilities\\ModelClasses\\Designation.cs",
-              "RelativeDocumentMoniker": "..\\Utilities\\ModelClasses\\Designation.cs",
-              "ToolTip": "C:\\Users\\Prachi\\OneDrive\\Desktop\\.NetPractice\\Utilities\\ModelClasses\\Designation.cs",
-              "RelativeToolTip": "..\\Utilities\\ModelClasses\\Designation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-15T08:34:40.852Z",
+              "WhenOpened": "2026-09-09T08:52:58.856Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Holiday.cs",
-              "DocumentMoniker": "C:\\Users\\Prachi\\OneDrive\\Desktop\\.NetPractice\\Utilities\\ModelClasses\\Holiday.cs",
-              "RelativeDocumentMoniker": "..\\Utilities\\ModelClasses\\Holiday.cs",
-              "ToolTip": "C:\\Users\\Prachi\\OneDrive\\Desktop\\.NetPractice\\Utilities\\ModelClasses\\Holiday.cs",
-              "RelativeToolTip": "..\\Utilities\\ModelClasses\\Holiday.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "EmployeeDepartment.cs",
+              "DocumentMoniker": "C:\\Users\\Prachi\\OneDrive\\Desktop\\.NetPractice\\HRMS-Latest\\Utilities\\ModelClasses\\EmployeeDepartment.cs",
+              "RelativeDocumentMoniker": "..\\Utilities\\ModelClasses\\EmployeeDepartment.cs",
+              "ToolTip": "C:\\Users\\Prachi\\OneDrive\\Desktop\\.NetPractice\\HRMS-Latest\\Utilities\\ModelClasses\\EmployeeDepartment.cs",
+              "RelativeToolTip": "..\\Utilities\\ModelClasses\\EmployeeDepartment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-21T10:04:45.082Z"
+              "WhenOpened": "2026-09-08T10:11:21.082Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "EmployeeService.cs",
-              "DocumentMoniker": "C:\\Users\\Prachi\\OneDrive\\Desktop\\.NetPractice\\HRMS\\Services\\EmployeeService.cs",
-              "RelativeDocumentMoniker": "Services\\EmployeeService.cs",
-              "ToolTip": "C:\\Users\\Prachi\\OneDrive\\Desktop\\.NetPractice\\HRMS\\Services\\EmployeeService.cs",
-              "RelativeToolTip": "Services\\EmployeeService.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAA9wBMAAAAWAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "EmployeeDepartmentValidators.cs",
+              "DocumentMoniker": "C:\\Users\\Prachi\\OneDrive\\Desktop\\.NetPractice\\HRMS-Latest\\HRMS.Database\\Validators\\EmployeeDepartmentValidators.cs",
+              "RelativeDocumentMoniker": "..\\HRMS.Database\\Validators\\EmployeeDepartmentValidators.cs",
+              "ToolTip": "C:\\Users\\Prachi\\OneDrive\\Desktop\\.NetPractice\\HRMS-Latest\\HRMS.Database\\Validators\\EmployeeDepartmentValidators.cs",
+              "RelativeToolTip": "..\\HRMS.Database\\Validators\\EmployeeDepartmentValidators.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-15T08:57:28.708Z"
+              "WhenOpened": "2026-09-08T10:12:27.518Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "SalaryStructure.cs",
-              "DocumentMoniker": "C:\\Users\\Prachi\\OneDrive\\Desktop\\.NetPractice\\Utilities\\ModelClasses\\SalaryStructure.cs",
-              "RelativeDocumentMoniker": "..\\Utilities\\ModelClasses\\SalaryStructure.cs",
-              "ToolTip": "C:\\Users\\Prachi\\OneDrive\\Desktop\\.NetPractice\\Utilities\\ModelClasses\\SalaryStructure.cs",
-              "RelativeToolTip": "..\\Utilities\\ModelClasses\\SalaryStructure.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAzwAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "RecruitmentMasterController.cs",
+              "DocumentMoniker": "C:\\Users\\Prachi\\OneDrive\\Desktop\\.NetPractice\\HRMS-Latest\\HRMS\\Controllers\\RecruitmentMasterController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RecruitmentMasterController.cs",
+              "ToolTip": "C:\\Users\\Prachi\\OneDrive\\Desktop\\.NetPractice\\HRMS-Latest\\HRMS\\Controllers\\RecruitmentMasterController.cs",
+              "RelativeToolTip": "Controllers\\RecruitmentMasterController.cs",
+              "ViewState": "AgIAAJgBAAAAAAAAAAAIwAoCAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-15T08:40:52.366Z"
+              "WhenOpened": "2026-09-07T14:41:48.3Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Payroll.cs",
-              "DocumentMoniker": "C:\\Users\\Prachi\\OneDrive\\Desktop\\.NetPractice\\Utilities\\ModelClasses\\Payroll.cs",
-              "RelativeDocumentMoniker": "..\\Utilities\\ModelClasses\\Payroll.cs",
-              "ToolTip": "C:\\Users\\Prachi\\OneDrive\\Desktop\\.NetPractice\\Utilities\\ModelClasses\\Payroll.cs",
-              "RelativeToolTip": "..\\Utilities\\ModelClasses\\Payroll.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAXAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "EmployeeMasterController.cs",
+              "DocumentMoniker": "C:\\Users\\Prachi\\OneDrive\\Desktop\\.NetPractice\\HRMS-Latest\\HRMS\\Controllers\\EmployeeMasterController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmployeeMasterController.cs",
+              "ToolTip": "C:\\Users\\Prachi\\OneDrive\\Desktop\\.NetPractice\\HRMS-Latest\\HRMS\\Controllers\\EmployeeMasterController.cs",
+              "RelativeToolTip": "Controllers\\EmployeeMasterController.cs",
+              "ViewState": "AgIAAHMCAAAAAAAAAAApwIoCAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-15T08:40:57.292Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "DepartmentRequest.cs",
-              "DocumentMoniker": "C:\\Users\\Prachi\\OneDrive\\Desktop\\.NetPractice\\Utilities\\DTOs\\DepartmentRequest.cs",
-              "RelativeDocumentMoniker": "..\\Utilities\\DTOs\\DepartmentRequest.cs",
-              "ToolTip": "C:\\Users\\Prachi\\OneDrive\\Desktop\\.NetPractice\\Utilities\\DTOs\\DepartmentRequest.cs",
-              "RelativeToolTip": "..\\Utilities\\DTOs\\DepartmentRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-15T08:44:34.287Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "DepartmentResponse.cs",
-              "DocumentMoniker": "C:\\Users\\Prachi\\OneDrive\\Desktop\\.NetPractice\\Utilities\\DTOs\\DepartmentResponse.cs",
-              "RelativeDocumentMoniker": "..\\Utilities\\DTOs\\DepartmentResponse.cs",
-              "ToolTip": "C:\\Users\\Prachi\\OneDrive\\Desktop\\.NetPractice\\Utilities\\DTOs\\DepartmentResponse.cs",
-              "RelativeToolTip": "..\\Utilities\\DTOs\\DepartmentResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-14T11:37:11.505Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "EmployeeAddress.cs",
-              "DocumentMoniker": "C:\\Users\\Prachi\\OneDrive\\Desktop\\.NetPractice\\Utilities\\ModelClasses\\EmployeeAddress.cs",
-              "RelativeDocumentMoniker": "..\\Utilities\\ModelClasses\\EmployeeAddress.cs",
-              "ToolTip": "C:\\Users\\Prachi\\OneDrive\\Desktop\\.NetPractice\\Utilities\\ModelClasses\\EmployeeAddress.cs",
-              "RelativeToolTip": "..\\Utilities\\ModelClasses\\EmployeeAddress.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-15T08:35:18.347Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "C:\\Users\\Prachi\\OneDrive\\Desktop\\.NetPractice\\Utilities\\ModelClasses\\Employee.cs",
-              "RelativeDocumentMoniker": "..\\Utilities\\ModelClasses\\Employee.cs",
-              "ToolTip": "C:\\Users\\Prachi\\OneDrive\\Desktop\\.NetPractice\\Utilities\\ModelClasses\\Employee.cs",
-              "RelativeToolTip": "..\\Utilities\\ModelClasses\\Employee.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAIwCQAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-15T08:34:42.84Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Attendance.cs",
-              "DocumentMoniker": "C:\\Users\\Prachi\\OneDrive\\Desktop\\.NetPractice\\Utilities\\ModelClasses\\Attendance.cs",
-              "RelativeDocumentMoniker": "..\\Utilities\\ModelClasses\\Attendance.cs",
-              "ToolTip": "C:\\Users\\Prachi\\OneDrive\\Desktop\\.NetPractice\\Utilities\\ModelClasses\\Attendance.cs",
-              "RelativeToolTip": "..\\Utilities\\ModelClasses\\Attendance.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-15T08:34:20.452Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "DepartmentService.cs",
-              "DocumentMoniker": "C:\\Users\\Prachi\\OneDrive\\Desktop\\.NetPractice\\HRMS\\Services\\DepartmentService.cs",
-              "RelativeDocumentMoniker": "Services\\DepartmentService.cs",
-              "ToolTip": "C:\\Users\\Prachi\\OneDrive\\Desktop\\.NetPractice\\HRMS\\Services\\DepartmentService.cs",
-              "RelativeToolTip": "Services\\DepartmentService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-14T11:40:46.755Z"
+              "WhenOpened": "2026-09-07T14:33:13.293Z"
             }
           ]
         }

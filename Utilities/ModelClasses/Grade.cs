@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Text;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace HRMS.Models.ModelClasses
 {
@@ -9,7 +6,9 @@ namespace HRMS.Models.ModelClasses
     {
         [Key]
         public int GradeId { get; set; }
-        public string GradeName { get; set; }
-        public string Description { get; set; }
+
+        [Required(ErrorMessage = "Grade name is required.")]
+        [MaxLength(100, ErrorMessage = "Grade name cannot exceed 100 characters.")]
+        public string GradeName { get; set; } = string.Empty;
     }
 }

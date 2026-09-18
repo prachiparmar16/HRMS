@@ -1,14 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Text;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace HRMS.Models.ModelClasses
 {
-  public class Designation
+    public class Designation
     {
         [Key]
         public int DesignationId { get; set; }
-        public string DesignationName { get; set; }
+
+        [Required(ErrorMessage = "Designation name is required.")]
+        [MaxLength(100, ErrorMessage = "Designation name cannot exceed 100 characters.")]
+        public string DesignationName { get; set; } = string.Empty;
     }
 }
